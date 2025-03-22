@@ -29,3 +29,65 @@
   font-weight: 800;
   font-display: swap;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  background: #0b1d26;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1780px;
+  padding: 64px 10px 0;
+  margin: 0 auto 198px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu__list-link {
+  line-height: 1.2;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+}
