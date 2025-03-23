@@ -147,3 +147,42 @@ body {
   align-items: center;
   gap: 16px;
 }
+
+.list {
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  gap: 114px;
+  margin-bottom: 200px;
+}
+
+.list__item:nth-child(even) .list__item-box {
+  order: 1;
+}
+
+.list__item-box {
+  padding-left: 150px;
+}
+
+.list__item-title {
+  max-width: 555px;
+  padding-top: 27px;
+  margin-bottom: 27px;
+  font-family: 'Chronicle-Display-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.list__item-text {
+  margin-bottom: 27px;
+}
+
+.list__item-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  color: #fbd784;
+}
