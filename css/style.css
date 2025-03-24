@@ -42,6 +42,7 @@ html {
 
 h1,
 h2,
+h3,
 p {
   margin: 0;
 }
@@ -203,4 +204,46 @@ body {
   align-items: center;
   gap: 16px;
   color: #fbd784;
+}
+
+.footer {
+  display: flex;
+  gap: 212px;
+  max-width: 1480px;
+  padding: 0 10px;
+  margin: 0 auto 240px;
+}
+
+.footer__main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: auto;
+}
+
+.footer__text {
+  max-width: 303px;
+  margin-bottom: auto;
+}
+
+.copy {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.footer__item-title {
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #fbd784;
+}
+
+.footer__item {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-weight: 500;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 16px;
 }
