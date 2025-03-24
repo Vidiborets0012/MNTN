@@ -397,3 +397,35 @@ body {
     max-width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 500px) {
+  .pre-title {
+    padding-left: 60px;
+  }
+
+  .pre-title::before {
+    width: 40px;
+    transform: translateY(-30%);
+  }
+
+  .content__top {
+    margin-bottom: 80px;
+  }
+
+  .list__item-box::before {
+    font-size: 70px;
+  }
+
+  .list__item-box {
+    padding-left: 24px;
+  }
+
+  .list__item-title {
+    padding-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+}
