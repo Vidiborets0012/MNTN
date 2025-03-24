@@ -306,7 +306,7 @@ body {
   }
 
   .list__item-img {
-    min-width: 400px;
+    max-width: 400px;
     height: auto;
   }
 
@@ -356,5 +356,44 @@ body {
   .footer {
     margin-bottom: 140px;
     gap: 30px;
+  }
+}
+
+@media (max-width: 830px) {
+  .content__top {
+    max-width: 950px;
+    margin: 0 auto 260px;
+  }
+
+  .list__item {
+    display: block;
+  }
+
+  .list__item-box {
+    margin-bottom: 30px;
+  }
+
+  .list__item-img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 560px;
+  }
+
+  .list__item-img--position {
+    object-position: bottom;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 60px;
+  }
+
+  .footer__main {
+    width: 100%;
+  }
+
+  .footer__text {
+    max-width: 100%;
   }
 }
