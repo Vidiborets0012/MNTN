@@ -325,4 +325,8 @@ body {
 }
 
 @media (max-width: 1280px) {
+  .social,
+  .site-list {
+    display: none;
+  }
 }
