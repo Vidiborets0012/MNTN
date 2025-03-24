@@ -330,3 +330,31 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 975px) {
+  .title {
+    font-size: 42px;
+  }
+
+  .list__item {
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .list__item-box {
+    padding-left: 40px;
+  }
+
+  .list__item-box::before {
+    font-size: 120px;
+  }
+
+  .content {
+    margin-bottom: 100px;
+  }
+
+  .footer {
+    margin-bottom: 140px;
+    gap: 30px;
+  }
+}
