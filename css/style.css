@@ -279,11 +279,50 @@ body {
   color: #fbd784;
 }
 
-.footer__item {
+.footer__list-item {
   font-family: 'Gilroy-Medium', sans-serif;
   font-weight: 500;
 }
 
-.footer__item:not(:last-child) {
+.footer__list-item:not(:last-child) {
   margin-bottom: 16px;
+}
+
+@media (max-width: 1800px) {
+  .social {
+    left: 20px;
+  }
+
+  .site-list {
+    right: 20px;
+  }
+
+  .content {
+    max-width: 1080px;
+  }
+
+  .list__item {
+    gap: 64px;
+  }
+
+  .list__item-img {
+    min-width: 400px;
+    height: auto;
+  }
+
+  .list__item-box {
+    padding-left: 96px;
+  }
+
+  .list__item-box::before {
+    font-size: 180px;
+  }
+
+  .footer {
+    max-width: 1080px;
+    gap: 100px;
+  }
+}
+
+@media (max-width: 1280px) {
 }
