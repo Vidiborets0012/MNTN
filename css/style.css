@@ -99,6 +99,21 @@ body {
   font-size: 17px;
 }
 
+.social {
+  position: fixed;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.social__text {
+  writing-mode: sideways-rl;
+}
+
 .content {
   max-width: 1480px;
   padding: 0 10px;
