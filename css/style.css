@@ -445,6 +445,11 @@ body {
     transform: translateY(-100%);
     z-index: 1;
     background-color: #0b1d26;
+    transition: transform 0.5s;
+  }
+
+  .menu__list.menu__list-open {
+    transform: translateY(0%);
   }
 }
 
