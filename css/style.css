@@ -137,6 +137,7 @@ body {
 .site-list__item {
   padding: 16px 32px 16px 0;
   border-right: 3px solid rgba(255, 255, 255, 0.5);
+  transition: border-color 0.3s;
 }
 
 .site-list__item--active {
